@@ -1,3 +1,28 @@
+body {
+  margin: 50px auto;
+}
+
 h1 {
   color: blue;
+}
+
+.card {
+  border-radius: 10px;
+  background-color: antiquewhite;
+}
+
+.card .weather-detail {
+}
+
+.weather-detail {
+  margin: 20px 0;
+}
+
+.seven-day-detail {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.bottom {
+  margin-top: -27px;
 }

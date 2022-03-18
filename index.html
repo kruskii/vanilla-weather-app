@@ -16,31 +16,35 @@
   </head>
   <body>
     <div class="container">
-      <div class="row weather-detail">
-        <div class="col">
-          <h1 class="city">New York</h1>
-          <div class="temp">21°C</div>
-          <div class="feels-like">Feels like 23°C</div>
-        </div>
-        <div class="col-5">
-          <img src="images/sun.svg" alt="" />
-          <div class="description">Sunny</div>
-        </div>
-        <div class="col">
-          <ul>
-            <li class="humidity">humidity 20%</li>
-            <li class="wind">Wind 10 km/h</li>
-          </ul>
+      <div class="card weather-detail top">
+        <div class="row weather-detail">
+          <div class="col">
+            <h1 class="city">New York</h1>
+            <div class="temp">21°C</div>
+            <div class="feels-like">Feels like 23°C</div>
+          </div>
+          <div class="col-5">
+            <img src="images/sun.svg" alt="" />
+            <div class="description">Sunny</div>
+          </div>
+          <div class="col">
+            <ul>
+              <li class="humidity">humidity 20%</li>
+              <li class="wind">Wind 10 km/h</li>
+            </ul>
+          </div>
         </div>
       </div>
-      <div class="row 7-day-forecast">
-        <div class="col">Day 1</div>
-        <div class="col">Day 2</div>
-        <div class="col">Day 3</div>
-        <div class="col">Day 4</div>
-        <div class="col">Day 5</div>
-        <div class="col">Day 6</div>
-        <div class="col">Day 7</div>
+      <div class="card seven-day bottom">
+        <div class="row seven-day-forecast">
+          <div class="col seven-day-detail">Day 1</div>
+          <div class="col seven-day-detail">Day 2</div>
+          <div class="col seven-day-detail">Day 3</div>
+          <div class="col seven-day-detail">Day 4</div>
+          <div class="col seven-day-detail">Day 5</div>
+          <div class="col seven-day-detail">Day 6</div>
+          <div class="col seven-day-detail">Day 7</div>
+        </div>
       </div>
     </div>
     <script src="src/app.js"></script>
