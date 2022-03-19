@@ -1,21 +1,50 @@
 body {
   margin: 50px auto;
+  color: white;
 }
 
-h1 {
-  color: blue;
-}
-
-.card {
+/*.card {
   border-radius: 10px;
-  background-color: antiquewhite;
+  max-width: 100%;
+}
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.card .weather-detail {
+.container {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.top {
+  background: linear-gradient(
+    111.6deg,
+    rgb(174, 68, 223) 27.3%,
+    rgb(246, 135, 135) 112.7%
+  );
+  display: flex;
+  border-radius: 20px;
 }
 
 .weather-detail {
-  margin: 20px 0;
+  margin: 10px 0 20px;
+}
+
+img {
+  margin-top: -50px;
+  width: 50%;
+}
+
+.current-weather {
+  position: absolute;
+}
+
+li {
+  list-style: none;
 }
 
 .seven-day-detail {
@@ -24,5 +53,18 @@ h1 {
 }
 
 .bottom {
-  margin-top: -27px;
+  /* margin-top: -70px;*/
+  display: flex;
+  box-shadow: rgb(37 39 89 / 8%) 0px 10px 9px 0;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(242, 235, 243) 0%,
+    rgb(234, 241, 249) 90.1%
+  );
+  border-radius: 10px;
+  color: black;
+  padding: 5px;
+  margin: 10px;
+  width: 20%;
+  text-align: center;
 }
