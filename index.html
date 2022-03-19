@@ -16,19 +16,22 @@
   </head>
   <body>
     <div class="container">
+      <form>
+        <input type="text" placeholder="Search" />
+        <input type="button" value="Search" />
+        <input type="button" value="Current" />
+      </form>
       <div class="card weather-detail top">
         <div class="row weather-detail">
-          <div class="col">
+          <div class="col left">
             <h1 class="city">New York</h1>
-            <div class="temp">21°C</div>
-            <div class="description">Sunny</div>
-            <div class="feels-like">Feels like 23°C</div>
+            <img src="images/cloud-rain.svg" alt="" class="current-weather" />
+            <span class="temp">21°C</span>
           </div>
-          <div class="col-5">
-            <img src="images/sun-2.svg" alt="" class="current-weather" />
-          </div>
-          <div class="col">
+          <div class="col right">
             <ul>
+              <li class="description">Sunny</li>
+              <li class="feels-like">Feels like 23°C</li>
               <li class="humidity">humidity 20%</li>
               <li class="wind">Wind 10 km/h</li>
             </ul>
@@ -37,13 +40,21 @@
       </div>
       <div class="seven-day">
         <div class="row seven-day-forecast">
-          <div class="col bottom seven-day-detail">Day 1</div>
-          <div class="col bottom seven-day-detail">Day 2</div>
-          <div class="col bottom seven-day-detail">Day 3</div>
-          <div class="col bottom seven-day-detail">Day 4</div>
-          <div class="col bottom seven-day-detail">Day 5</div>
-          <div class="col bottom seven-day-detail">Day 6</div>
-          <div class="col bottom seven-day-detail">Day 7</div>
+          <div class="col bottom seven-day-detail">
+            <ul class="forecast-list">
+              <li>Monday</li>
+              <li>
+                <img src="images/cloud-rain.svg" alt="" class="forecast-img" />
+              </li>
+              <li>12° 7°</li>
+            </ul>
+          </div>
+          <div class="col bottom seven-day-detail">Tuesday</div>
+          <div class="col bottom seven-day-detail">Wednesday</div>
+          <div class="col bottom seven-day-detail">Thursday</div>
+          <div class="col bottom seven-day-detail">Friday</div>
+          <div class="col bottom seven-day-detail">Saturday</div>
+          <div class="col bottom seven-day-detail">Sunday</div>
         </div>
       </div>
     </div>
