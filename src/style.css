@@ -18,13 +18,13 @@ li {
   line-height: 20px;
 }
 
-form {
-  margin: 0 50px;
-}
-
 ul {
   padding: 0 10px;
   align-items: center;
+}
+
+form {
+  padding: 0 100px;
 }
 
 .container {
